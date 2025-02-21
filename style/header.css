@@ -147,14 +147,10 @@
         margin-bottom: 23px;
     }
 
-    .header__nav-text,
-    .header__nav-text-size {
-        display: none;
-    }
 
 
     .header__nav-phone {
-        display: block;
+       
         width: 24px;
         height: 24px;
 
