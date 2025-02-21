@@ -67,6 +67,23 @@
     text-align: center;
 }
 
+.header__nav-text-size {
+    transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.header__nav-phone {
+    transition: transform 0.3s ease-in-out;
+}
+
+a:hover .header__nav-text-size {
+    color: rgb(20, 168, 203); /* Цвет при наведении */
+    transform: scale(1.5); /* Увеличение текста */
+}
+
+a:hover .header__nav-phone {
+    transform: rotate(15deg) scale(1.2); /* Лёгкий поворот и увеличение */
+}
+
 .header__nav-phone {
     display: none;
 }
