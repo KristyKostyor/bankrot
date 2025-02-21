@@ -124,7 +124,7 @@
 @media all and (max-width:480px) {
     .about-us {
         height: 170vh;
-        padding-top: 10px;
+        padding-top: 5px;
     }
 
     .about-us__text {
@@ -138,14 +138,14 @@
     .about-us__title {
         font-size: 20px;
         line-height: 23px;
-        margin-bottom: 15px;
+        margin-bottom: 10px;
     }
 
     .about-us__circle-block {
         display: flex;
         flex-direction: column;
         gap: 5px;
-        margin-bottom: 5px;
+        margin-bottom: 4px;
     }
 
     .about-us__sign {
@@ -160,22 +160,22 @@
     }
 
     .about-us__text-block {
-        margin-bottom: 26px;
+        margin-bottom: 16px;
     }
 
     .about-us__text {
         font-size: 12px;
         line-height: 17px;
-        margin-bottom: 40px;
+        margin-bottom: 20px;
     }
 
     .about-us__text-circle {
         max-width: 166px;
         font-size: 18px;
         line-height: 25px;
-        margin-bottom: 40px;
+        margin-bottom: 20px;
     }
     .about-us__cicrle-content {
-        padding-bottom: 20px;
+        padding-bottom: 2px;
     }
 }
