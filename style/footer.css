@@ -32,6 +32,14 @@
     color: var(--main-color);
 
 }
+.footer__info {
+    margin-top: 10px;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+    color: var(--main-color);
+
+}
 
 .footer__recall {
     font-size: 16px;
