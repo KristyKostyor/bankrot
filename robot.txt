@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /private/
+Disallow: /tmp/
+Disallow: /cgi-bin/
+
+Sitemap: https://bezdolgov.netlify.app/sitemap.xml
+Host: https://bezdolgov.netlify.app
