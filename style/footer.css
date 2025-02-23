@@ -1,0 +1,131 @@
+.footer {
+    padding: 45px 0;
+    background-color: #2F324B;
+}
+
+.footer__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__logo-block {
+    display: flex;
+    align-items: center;
+}
+
+.footer__text {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 17px;
+    color: var(--main-color);
+}
+
+.footer svg {
+    margin-right: 19px;
+}
+
+.footer__tel {
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: var(--main-color);
+
+}
+.footer__info {
+    margin-top: 10px;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+    color: var(--main-color);
+
+}
+
+.footer__recall {
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: var(--main-color);
+    text-decoration: underline;
+}
+
+.footer__nav-phone {
+    display: none;
+}
+
+.footer__text__author-mobile {
+    display: none;
+
+}
+.telegram-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0088cc; /* Цвет Telegram */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.telegram-button:hover {
+    background-color: #006699;
+}
+
+@media all and (max-width:480px) {
+
+    .footer svg {
+        width: 30px;
+        height: 30px;
+    }
+
+    .footer__recall,
+    .footer__tel {
+        display: none;
+    }
+
+    .footer__nav-phone {
+        display: block;
+        width: 24px;
+        height: 24px;
+    }
+
+    .footer__text-copy {
+        max-width: 87px;
+        font-size: 8px;
+        line-height: 11px;
+    }
+
+    .footer__nav-phone {
+        width: 24px;
+        height: 24px;
+    }
+
+    .footer__text-author {
+        display: none;
+    }
+
+    footer__text-author {
+        display: none;
+    }
+
+    .footer__text__author-mobile {
+        display: block;
+        text-align: center;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 17px;
+        color: rgba(255, 255, 255, 0.75);
+        background: #2A2C3F;
+        padding: 15px 80px;
+    }
+
+    .footer {
+        padding: 29px 0;
+    }
+
+    .footer__wrapper {
+        padding: 25px 15px 0 25px;
+    }
+
+}

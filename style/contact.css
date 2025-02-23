@@ -1,0 +1,144 @@
+.contact {
+    background-image: linear-gradient(rgba(47, 50, 75, 0.85), rgba(47, 50, 75, 0.85)), url('../img/man.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 70px 0;
+
+}
+
+.contact__content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.contact__title {
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 41px;
+    text-align: center;
+    color: var(--main-color);
+    margin-bottom: 17px;
+    margin-right: 3px;
+}
+
+.contact__text {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 50px;
+}
+
+.contact__input-name,
+.contact__input-tel {
+    width: 423px;
+    height: 44px;
+    border: 1.38235px solid var(--main-color);
+    background: transparent;
+    border-radius: 50px;
+    margin-bottom: 21px;
+    color: white;
+}
+
+.contact input::placeholder {
+    font-size: 22px;
+    line-height: 26px;
+    color: rgba(255, 255, 255, 0.5);
+    padding: 9px 296px 9px 25px;
+}
+
+.contact__input-mail {
+    width: 423px;
+    height: 44px;
+    border: 1.38235px solid var(--main-color);
+    background: transparent;
+    border-radius: 50px;
+    margin-bottom: 50px;
+    color: white;
+}
+
+.contact__btn {
+    width: 210px;
+    height: 48px;
+    color: var(--main-color);
+    background: var(--blue-color);
+    box-shadow: 0px 4px 25px rgba(21, 169, 203, 0.3);
+    border-radius: 50px;
+    border: none;
+    margin-bottom: 50px;
+}
+
+.contact__accept {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: var(--main-color);
+}
+
+span {
+    color: #4A76A8;
+    text-decoration: underline;
+}
+
+@media all and (max-width:1024px) {
+    .contact input {
+        width: 377px;
+        height: 39px;
+    }
+
+    .contact__accept {
+        font-size: 17px;
+        line-height: 20px;
+    }
+
+    .contact,
+    .contact::before {
+        height: 65vh;
+
+    }
+}
+
+@media all and (max-width:480px) {
+    .contact input {
+        width: 290px;
+        height: 28px;
+    }
+
+    .contact__title {
+        font-size: 20px;
+        line-height: 23px;
+        margin-bottom: 10px;
+        margin-right: 3px;
+    }
+
+    .contact__text {
+        font-size: 12px;
+        line-height: 14px;
+        margin-bottom: 35px;
+    }
+
+    .contact input::placeholder {
+        font-size: 14px;
+        line-height: 16px;
+        padding: 6px 205px 6px 18px;
+    }
+
+    .contact,
+    .contact::before {
+        height: 55vh;
+
+    }
+
+    .contact__btn {
+        width: 174px;
+        height: 38px;
+        font-size: 16px;
+        line-height: 19px;
+    }
+}
