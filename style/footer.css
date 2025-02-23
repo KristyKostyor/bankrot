@@ -113,13 +113,18 @@
         display: block;
         text-align: center;
         font-weight: 500;
-        font-size: 12px;
+        font-size: 10px;
         line-height: 17px;
         color: rgba(255, 255, 255, 0.75);
         background: #2A2C3F;
         padding: 15px 80px;
     }
-
+.footer__info{
+    max-width: 87px;
+    font-size: 8px;
+    line-height: 11px;
+    margin-left: 5px;
+}
     .footer {
         padding: 29px 0;
     }
