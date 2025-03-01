@@ -1,8 +1,13 @@
 User-agent: *
 Disallow: /admin/
-Disallow: /private/
-Disallow: /tmp/
+Disallow: /login/
+Disallow: /wp-admin/
+Disallow: /wp-login.php
 Disallow: /cgi-bin/
+Disallow: /search
+Disallow: /private/
+
+Allow: /
 
 Sitemap: https://bezdolgov.netlify.app/sitemap.xml
 Host: https://bezdolgov.netlify.app
