@@ -1,146 +1,180 @@
 .footer {
-    padding: 45px 0;
-    background-color: #2F324B;
+    background-color: #f5f5f5;
+    padding: 40px 20px;
+    font-family: Arial, sans-serif;
+    color: #333;
 }
+
+/* -------------------- Layout -------------------- */
 
 .footer__wrapper {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    gap: 20px;
-    padding: 0 20px;
+    gap: 40px;
 }
 
-.footer__logo-block {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 12px;
+.footer__image-block {
+    flex: 1 1 40%;
+    max-width: 500px;
 }
 
-.footer svg {
-    margin-right: 19px;
-}
-
-.footer__text {
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 17px;
-    color: var(--main-color);
-}
-
-.footer__tel {
-    font-size: 24px;
-    line-height: 28px;
-    text-align: center;
-    color: var(--main-color);
-}
-
-.footer__info {
-    margin-top: 10px;
-    font-size: 18px;
-    line-height: 20px;
-    text-align: center;
-    color: var(--main-color);
-}
-
-.footer__recall {
+.footer__contact-block {
+    flex: 1 1 40%;
+    max-width: 500px;
+    text-align: left;
     font-size: 16px;
-    line-height: 19px;
-    text-align: center;
-    color: var(--main-color);
-    text-decoration: underline;
 }
 
-.footer__nav-phone {
-    display: none;
+/* -------------------- Фото -------------------- */
+
+.footer__image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 16px;
+    mask-image: linear-gradient(to right, black 60%, transparent 100%);
+    -webkit-mask-image: linear-gradient(to right, black 60%, transparent 100%);
 }
 
-.footer__text-author {
-    font-size: 10px;
-    text-align: center;
-    color: rgba(255, 255, 255, 0.75);
+/* -------------------- Контакты -------------------- */
+
+.footer__name {
+    font-size: 26px;
+    font-weight: 700;
+    color: #1f1f1f;
+    margin-bottom: 16px;
 }
 
-.footer__text__author-mobile {
-    display: none;
+.footer__tel,
+.footer__recall,
+.footer__inn,
+.footer__email {
+    margin: 8px 0;
 }
+
+/* Ссылки — телефон и email */
+.footer__tel a,
+.footer__email a,
+.footer__recall-link {
+    color: #333;
+    text-decoration: none;
+    font-weight: 500;
+    display: inline-block;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+/* Иконки */
+.footer__tel i,
+.footer__email i {
+    margin-right: 8px;
+    color: #15A9CB;
+}
+
+/* Hover / Active эффекты */
+.footer__tel a:hover,
+.footer__tel a:focus,
+.footer__tel a:active,
+.footer__email a:hover,
+.footer__email a:focus,
+.footer__email a:active,
+.footer__recall-link:hover,
+.footer__recall-link:focus,
+.footer__recall-link:active {
+    color: #229ED9;
+    transform: scale(1.1);
+}
+
+/* -------------------- Telegram -------------------- */
 
 .telegram-button {
     display: inline-block;
-    padding: 10px 20px;
-    background-color: #0088cc;
+    background-color: #229ED9;
     color: white;
+    padding: 12px 24px;
+    border-radius: 8px;
     text-decoration: none;
-    border-radius: 5px;
     font-weight: bold;
-    transition: background-color 0.3s;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
 }
 
 .telegram-button:hover {
-    background-color: #006699;
+    background-color: #1b88bd;
 }
 
-/* ----------- MOBILE ----------- */
-@media all and (max-width: 480px) {
-    .footer {
-        padding: 29px 0;
-    }
+/* -------------------- Карта -------------------- */
 
+.footer__map-container {
+    display: flex;
+    justify-content: center;
+    margin: 40px auto 20px;
+}
+
+.footer__map {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 25px rgba(0, 0, 0, 0.2);
+}
+
+.footer__map iframe {
+    width: 100%;
+    height: 300px;
+    border: 0;
+    display: block;
+    border-radius: 12px;
+}
+
+/* -------------------- Авторские права -------------------- */
+
+.footer__text__author-mobile {
+    display: block;
+    text-align: center;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 17px;
+    color: rgba(255, 255, 255, 0.75);
+    background: #2A2C3F;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+/* -------------------- Адаптив -------------------- */
+
+@media (max-width: 768px) {
     .footer__wrapper {
         flex-direction: column;
-        align-items: center;
+        text-align: center;
         padding: 0 15px;
+    }
+
+    .footer__contact-block {
         text-align: center;
     }
 
-    .footer svg {
-        width: 30px;
-        height: 30px;
-        margin: 0 auto 10px;
+    .footer__image {
+        mask-image: none;
+        -webkit-mask-image: none;
+    }
+
+    .telegram-button {
+        padding: 10px 20px;
+        font-size: 14px;
     }
 
     .footer__tel,
     .footer__recall,
-    .footer__text-author {
-        display: none;
-    }
-
-    .footer__nav-phone {
-        display: block;
-        width: 24px;
-        height: 24px;
-        margin: 10px 0;
-    }
-
-    .footer__text-copy,
-    .footer__info {
-        max-width: 100%;
-        font-size: 10px;
-        line-height: 14px;
-        color: rgba(255, 255, 255, 0.75);
-    }
-
-    .footer__text__author-mobile {
-        display: block;
-        text-align: center;
-        font-weight: 500;
-        font-size: 10px;
-        line-height: 17px;
-        color: rgba(255, 255, 255, 0.75);
-        background: #2A2C3F;
-        padding: 15px;
-        width: 100%;
-    }
-
-    .footer__logo-block {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .telegram-button {
-        padding: 8px 14px;
+    .footer__inn,
+    .footer__email {
         font-size: 14px;
+        line-height: 20px;
+    }
+
+    .footer__map iframe {
+        height: 250px;
     }
 }
