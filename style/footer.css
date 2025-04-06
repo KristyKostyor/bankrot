@@ -7,11 +7,20 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 0 20px;
 }
 
 .footer__logo-block {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.footer svg {
+    margin-right: 19px;
 }
 
 .footer__text {
@@ -21,24 +30,19 @@
     color: var(--main-color);
 }
 
-.footer svg {
-    margin-right: 19px;
-}
-
 .footer__tel {
     font-size: 24px;
     line-height: 28px;
     text-align: center;
     color: var(--main-color);
-
 }
+
 .footer__info {
     margin-top: 10px;
     font-size: 18px;
     line-height: 20px;
     text-align: center;
     color: var(--main-color);
-
 }
 
 .footer__recall {
@@ -53,14 +57,20 @@
     display: none;
 }
 
+.footer__text-author {
+    font-size: 10px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.75);
+}
+
 .footer__text__author-mobile {
     display: none;
-
 }
+
 .telegram-button {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #0088cc; /* Цвет Telegram */
+    background-color: #0088cc;
     color: white;
     text-decoration: none;
     border-radius: 5px;
@@ -72,15 +82,28 @@
     background-color: #006699;
 }
 
-@media all and (max-width:480px) {
+/* ----------- MOBILE ----------- */
+@media all and (max-width: 480px) {
+    .footer {
+        padding: 29px 0;
+    }
+
+    .footer__wrapper {
+        flex-direction: column;
+        align-items: center;
+        padding: 0 15px;
+        text-align: center;
+    }
 
     .footer svg {
         width: 30px;
         height: 30px;
+        margin: 0 auto 10px;
     }
 
+    .footer__tel,
     .footer__recall,
-    .footer__tel {
+    .footer__text-author {
         display: none;
     }
 
@@ -88,25 +111,15 @@
         display: block;
         width: 24px;
         height: 24px;
+        margin: 10px 0;
     }
 
-    .footer__text-copy {
-        max-width: 87px;
-        font-size: 8px;
-        line-height: 11px;
-    }
-
-    .footer__nav-phone {
-        width: 24px;
-        height: 24px;
-    }
-
-    .footer__text-author {
-        display: none;
-    }
-
-    footer__text-author {
-        display: none;
+    .footer__text-copy,
+    .footer__info {
+        max-width: 100%;
+        font-size: 10px;
+        line-height: 14px;
+        color: rgba(255, 255, 255, 0.75);
     }
 
     .footer__text__author-mobile {
@@ -117,20 +130,17 @@
         line-height: 17px;
         color: rgba(255, 255, 255, 0.75);
         background: #2A2C3F;
-        padding: 15px 80px;
-    }
-.footer__info{
-    max-width: 87px;
-    font-size: 8px;
-    line-height: 11px;
-    margin-left: 5px;
-}
-    .footer {
-        padding: 29px 0;
+        padding: 15px;
+        width: 100%;
     }
 
-    .footer__wrapper {
-        padding: 25px 15px 0 25px;
+    .footer__logo-block {
+        flex-direction: column;
+        align-items: center;
     }
 
+    .telegram-button {
+        padding: 8px 14px;
+        font-size: 14px;
+    }
 }
