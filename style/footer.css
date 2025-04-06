@@ -44,12 +44,29 @@
     color: #1f1f1f;
     margin-bottom: 16px;
 }
-
+.footer__skill{
+    font-size: 22px;
+    font-weight: 400;
+    color: #1f1f1f;
+    margin-bottom: 16px;
+}
 .footer__tel,
 .footer__recall,
 .footer__inn,
 .footer__email {
     margin: 8px 10px;
+}
+.footer__tel-icon, .footer__recall-icon {
+    width: 20px;
+    height: auto;
+    margin-right: 8px; /* Отступ между иконкой и текстом */
+    vertical-align: middle; /* Выравнивание по центру */
+}
+.footer__email-icon {
+    width: 20px;
+    height: auto;
+    margin-right: 8px; /* Отступ между иконкой и текстом */
+    vertical-align: middle; /* Выравнивание по центру */
 }
 
 /* Ссылки — телефон и email */
