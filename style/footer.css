@@ -5,7 +5,7 @@
     color: #333;
 }
 
-/* -------------------- Layout -------------------- */
+
 
 .footer__wrapper {
     display: flex;
@@ -27,7 +27,6 @@
     font-size: 16px;
 }
 
-/* -------------------- Фото -------------------- */
 
 .footer__image {
     width: 100%;
@@ -38,7 +37,6 @@
     -webkit-mask-image: linear-gradient(to right, black 60%, transparent 100%);
 }
 
-/* -------------------- Контакты -------------------- */
 
 .footer__name {
     font-size: 26px;
@@ -51,7 +49,7 @@
 .footer__recall,
 .footer__inn,
 .footer__email {
-    margin: 8px 0;
+    margin: 8px 10px;
 }
 
 /* Ссылки — телефон и email */
@@ -87,7 +85,7 @@
     transform: scale(1.1);
 }
 
-/* -------------------- Telegram -------------------- */
+
 
 .telegram-button {
     display: inline-block;
@@ -105,7 +103,7 @@
     background-color: #1b88bd;
 }
 
-/* -------------------- Карта -------------------- */
+
 
 .footer__map-container {
     display: flex;
