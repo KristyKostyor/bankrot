@@ -1,0 +1,43 @@
+
+body {
+  margin: 0;
+  font-family: "Roboto", Arial, sans-serif;
+  background: #f9f9f9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+.thankyou__container {
+  max-width: 600px;
+  text-align: center;
+  background: #fff;
+  padding: 40px 30px;
+  border-radius: 16px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+}
+.thankyou__title {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #222;
+}
+.thankyou__text {
+  font-size: 18px;
+  margin-bottom: 30px;
+  line-height: 1.6;
+  color: #444;
+}
+.thankyou__btn {
+  display: inline-block;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+  background: #23C7EC;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+.thankyou__btn:hover {
+  background: #1da8ca;
+}
