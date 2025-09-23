@@ -1,0 +1,21 @@
+{
+    "name": "Банкротство физических лиц",
+    "short_name": "Без долгов",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#23C7EC",
+    "icons": [
+      {
+        "src": "https://img.icons8.com/?size=100&id=YIQMkFeMF9jg&format=png&color=000000",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "https://img.icons8.com/?size=100&id=YIQMkFeMF9jg&format=png&color=000000",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ]
+  }
+  
