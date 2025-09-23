@@ -1,49 +1,40 @@
+/* roboto-400 - regular */
 @font-face {
-    font-display: swap;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    src:
-        url('../fonts/roboto-v30-latin-regular.woff2') format('woff2'),
-        /* Super Modern Browsers */
-        url('../fonts/roboto-v30-latin-regular.woff') format('woff'),
-}
-
-/* roboto-500 - latin */
-@font-face {
     font-display: swap;
+    src: url('/fonts/roboto-v30-latin-400.woff2') format('woff2'),
+         url('/fonts/roboto-v30-latin-400.woff') format('woff');
+  }
+  
+  /* roboto-500 - medium */
+  @font-face {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
-    src:
-        url('./fonts/roboto-v30-latin-500.woff2') format('woff2'),
-        /* Super Modern Browsers */
-        url('./fonts/roboto-v30-latin-500.woff') format('woff'),
-
-}
-
-@font-face {
     font-display: swap;
+    src: url('/fonts/roboto-v30-latin-500.woff2') format('woff2'),
+         url('/fonts/roboto-v30-latin-500.woff') format('woff');
+  }
+  
+  /* roboto-700 - bold */
+  @font-face {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
-    src:
-        /* IE6-IE8 */
-        url('../fonts/roboto-v30-latin-700.woff2') format('woff2'),
-        /* Super Modern Browsers */
-        url('../fonts/roboto-v30-latin-700.woff') format('woff'),
-
-}
-
-@font-face {
     font-display: swap;
+    src: url('/fonts/roboto-v30-latin-700.woff2') format('woff2'),
+         url('/fonts/roboto-v30-latin-700.woff') format('woff');
+  }
+  
+  /* roboto-900 - black */
+  @font-face {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 900;
-    src:
-        /* IE6-IE8 */
-        url('../fonts/roboto-v30-latin-900.woff2') format('woff2'),
-        /* Super Modern Browsers */
-        url('../fonts/roboto-v30-latin-900.woff format')('woff'),
-
-}
+    font-display: swap;
+    src: url('/fonts/roboto-v30-latin-900.woff2') format('woff2'),
+         url('/fonts/roboto-v30-latin-900.woff') format('woff');
+  }
+  
