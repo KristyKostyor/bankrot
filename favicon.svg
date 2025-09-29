@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120">
+  <rect width="120" height="120" fill="#15A9CB"/>
+  <g fill="none" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" transform="translate(60,65)">
+    <!-- Колонна -->
+    <line x1="0" y1="-32" x2="0" y2="28"/>
+    <!-- Основание -->
+    <line x1="-18" y1="28" x2="18" y2="28"/>
+    <!-- Балка -->
+    <line x1="-28" y1="-15" x2="28" y2="-15"/>
+    <!-- Чаши -->
+    <path d="M -28 -15 Q -20 8 -12 -15 Z"/>
+    <path d="M 28 -15 Q 20 8 12 -15 Z"/>
+  </g>
+</svg>
