@@ -26,14 +26,15 @@
     line-height: 31px;
     text-align: center;
     color: rgba(255, 255, 255, 0.75);
-    margin-bottom: 90px;
+    margin-bottom: 120px;
 }
 
 .header__btn-wrapper {
     display: flex;
-    justify-content: center;
+    flex-direction: column; /* делаем колонки вместо ряда */
+    align-items: center;    /* выравниваем по центру */
+    gap: 25px;              /* расстояние между кнопками */
 }
-
 .header__btn {
     width: 200px;
     height: 48px;

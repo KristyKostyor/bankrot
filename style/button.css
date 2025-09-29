@@ -1,0 +1,32 @@
+.cta-btn {
+    width: 280px;
+    height: 60px;
+    background: linear-gradient(90deg, #15A9CB, #23C7EC);
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 0px 6px 20px rgba(21, 169, 203, 0.5);
+    cursor: pointer;
+    transition: transform 0.2s ease, background 0.3s ease;
+    margin: 0; /* убираем auto */
+}
+
+.cta-btn:hover {
+    transform: scale(1.05);
+    background: linear-gradient(90deg, #23C7EC, #15A9CB);
+}
+
+.cta-center {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.cta-section {
+    text-align: center;
+    padding: 40px 20px;
+    background: #f5faff;
+    border-radius: 12px;
+    margin: 50px auto;
+}
