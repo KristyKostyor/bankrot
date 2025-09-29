@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+  <channel>
+    <title>Без долгов</title>
+    <link>https://bezdolgov.netlify.app/</link>
+    <description>Статьи о банкротстве, пошаговые инструкции, советы юристов</description>
+    <language>ru</language>
+    <lastBuildDate>Mon, 29 Sep 2025 12:00:00 +0300</lastBuildDate>
+
+    <item>
+      <title>Банкротство через МФЦ</title>
+      <link>https://bezdolgov.netlify.app/mfc.html</link>
+      <description>Как подать заявление на банкротство через МФЦ: пошаговая инструкция, помощь юристов, консультация.</description>
+      <pubDate>Mon, 29 Sep 2025 10:00:00 +0300</pubDate>
+      <guid>https://bezdolgov.netlify.app/mfc.html</guid>
+    </item>
+
+  </channel>
+</rss>
