@@ -88,7 +88,24 @@ a:hover .header__nav-phone {
 .header__nav-phone {
     display: none;
 }
-
+.header__telegram {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .header__telegram:hover {
+    opacity: 0.8;
+  }
+  
+  .header__telegram-icon {
+    width: 20px;
+    height: 20px;
+  }
+  
+  
 @media all and (max-width:1024px) {
 
     body {
