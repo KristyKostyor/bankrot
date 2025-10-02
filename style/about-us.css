@@ -122,9 +122,11 @@
 
 
 @media all and (max-width:480px) {
+    
     .about-us {
-        height: 170vh;
-        padding-top: 5px;
+         min-height: auto; /* пусть тянется по содержимому */
+         padding-top: 20px; /* чуть увеличим отступ */
+         padding-bottom: 
     }
 
     .about-us__text {
@@ -144,8 +146,8 @@
     .about-us__circle-block {
         display: flex;
         flex-direction: column;
-        gap: 5px;
-        margin-bottom: 4px;
+        gap: 15px; /* больше воздуха между пунктами */
+        margin-bottom: 20px;;
     }
 
     .about-us__sign {
@@ -176,6 +178,6 @@
         margin-bottom: 20px;
     }
     .about-us__cicrle-content {
-        padding-bottom: 2px;
+        padding-bottom: 10px;
     }
 }
