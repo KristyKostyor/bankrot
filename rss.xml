@@ -1,19 +1,43 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<rss version="2.0">
-  <channel>
-    <title>Без долгов</title>
-    <link>https://bezdolgov.netlify.app/</link>
-    <description>Статьи о банкротстве, пошаговые инструкции, советы юристов</description>
-    <language>ru</language>
-    <lastBuildDate>Mon, 29 Sep 2025 12:00:00 +0300</lastBuildDate>
+<?xml version="1.0" encoding="utf-8"?>
+<yml_catalog date="2025-10-02 12:00">
+  <shop>
+    <name>Без долгов</name>
+    <company>Без долгов — юридические услуги</company>
+    <url>https://bezdolgov.netlify.app/</url>
+    <currencies>
+      <currency id="RUR" rate="1"/>
+    </currencies>
+    <categories>
+      <category id="1">Юридические услуги</category>
+    </categories>
+    <offers>
+      <offer id="1" available="true">
+        <url>https://bezdolgov.netlify.app/</url>
+        <price>0</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>1</categoryId>
+        <name>Банкротство физических лиц</name>
+        <description>Полное сопровождение процедуры банкротства для физических лиц. Бесплатная консультация. Работаем онлайн по всей России.</description>
+        <rating>4.9</rating>
+        <reviewCount>127</reviewCount>
+        <experience>10</experience>
+        <region>Россия</region>
+        <conversion>3.2</conversion>
+      </offer>
 
-    <item>
-      <title>Банкротство через МФЦ</title>
-      <link>https://bezdolgov.netlify.app/mfc.html</link>
-      <description>Как подать заявление на банкротство через МФЦ: пошаговая инструкция, помощь юристов, консультация.</description>
-      <pubDate>Mon, 29 Sep 2025 10:00:00 +0300</pubDate>
-      <guid>https://bezdolgov.netlify.app/mfc.html</guid>
-    </item>
-
-  </channel>
-</rss>
+      <offer id="2" available="true">
+        <url>https://bezdolgov.netlify.app/#</url>
+        <price>0</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>1</categoryId>
+        <name>Бесплатная консультация</name>
+        <description>Ответим на вопросы о долгах, банкротстве, вариантах решения проблем с кредитами. Онлайн, без визита в офис.</description>
+        <rating>5.0</rating>
+        <reviewCount>200</reviewCount>
+        <experience>8</experience>
+        <region>Россия</region>
+        <conversion>4.5</conversion>
+      </offer>
+    </offers>
+  </shop>
+</yml_catalog>
