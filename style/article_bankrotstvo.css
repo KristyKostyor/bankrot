@@ -1,0 +1,53 @@
+.article {
+    padding: 40px 0;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
+  }
+  .article__title {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #1a3e73;
+  }
+  .article__intro {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+  .article__list li,
+  .article__steps li {
+    margin-bottom: 10px;
+  }
+  .article__advantages p {
+    background: #f5faff;
+    border-left: 4px solid #1a73e8;
+    padding: 10px;
+    margin: 8px 0;
+  }
+  .article__myths p {
+    background: #fff7f7;
+    border-left: 4px solid #e63946;
+    padding: 10px;
+    margin: 10px 0;
+  }
+  .article__cta {
+    margin-top: 30px;
+    padding: 20px;
+    background: #f0f8ff;
+    text-align: center;
+    border-radius: 10px;
+  }
+  .article__cta .btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 12px 24px;
+    background: #1a73e8;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background 0.3s;
+  }
+  .article__cta .btn:hover {
+    background: #155ab6;
+  }
+  

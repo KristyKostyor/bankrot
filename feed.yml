@@ -1,33 +1,66 @@
 <?xml version="1.0" encoding="utf-8"?>
-<yml_catalog date="2025-10-02 12:00">
+<yml_catalog date="2025-10-06 21:30">
   <shop>
-    <name>Без долгов</name>
-    <company>Без долгов — юридические услуги</company>
+    <name>ООО "Без долгов"</name>
+    <company>Юридическая компания "Без долгов"</company>
     <url>https://bezdolgov.netlify.app/</url>
+
     <currencies>
       <currency id="RUR" rate="1"/>
     </currencies>
+
     <categories>
       <category id="1">Юридические услуги</category>
     </categories>
+
     <offers>
+
+      <!-- Основное предложение -->
       <offer id="1" available="true">
         <url>https://bezdolgov.netlify.app/</url>
         <price>0</price>
         <currencyId>RUR</currencyId>
         <categoryId>1</categoryId>
-        <name>Банкротство физических лиц</name>
-        <description>Полное сопровождение процедуры банкротства для физических лиц. Бесплатная консультация. Работаем онлайн по всей России, приезжать в офис не нужно.</description>
+
+        <!-- Название исполнителя -->
+        <name>ООО "Без долгов" — банкротство физических лиц онлайн</name>
+
+        <description>
+          Полное сопровождение процедуры банкротства физических лиц.
+          Работаем онлайн по всей России, приезжать в офис не нужно.
+          Бесплатная консультация и юридическая поддержка на всех этапах.
+        </description>
+
+        <!-- Обязательные параметры -->
+        <param name="Рейтинг">5.0</param>
+        <param name="Число отзывов">124</param>
+        <param name="Годы опыта">8</param>
+        <param name="Регион">Россия</param>
+        <param name="Конверсия">0.12</param>
       </offer>
+
+      <!-- Второе предложение -->
       <offer id="2" available="true">
-        <url>https://bezdolgov.netlify.app/#</url>
-        <price>1</price>
+        <url>https://bezdolgov.netlify.app/#contact</url>
+        <price>0</price>
         <currencyId>RUR</currencyId>
         <categoryId>1</categoryId>
-        <name>Бесплатная консультация</name>
-        <description>Ответим на вопросы о долгах, банкротстве, вариантах решения проблем с кредитами. Работаем дистанционно по всей России, без визита в офис.</description>
+
+        <name>ООО "Без долгов" — бесплатная консультация юриста</name>
+
+        <description>
+          Бесплатно разберём вашу ситуацию с долгами и подскажем,
+          подходит ли вам процедура банкротства. Консультация проводится онлайн,
+          без выезда в офис. Работаем по всей России.
+        </description>
+
+        <param name="Рейтинг">5.0</param>
+        <param name="Число отзывов">124</param>
+        <param name="Годы опыта">8</param>
+        <param name="Регион">Россия</param>
+        <param name="Конверсия">0.15</param>
       </offer>
-      <!-- Можно добавить ещё предложения -->
+
     </offers>
   </shop>
 </yml_catalog>
