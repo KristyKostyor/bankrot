@@ -58,7 +58,7 @@
 </head>
 
 <body>
-    <header class="header">
+    <header class="header">   
         <div class="container">
             <nav class="header__navigator">
                 <div class="header__nav-logo">
@@ -66,20 +66,18 @@
                 </div>
                 <div class="header__nav-info">
                     <p class="header__nav-text">+7(499)-492-50-88</p>
-                  
+                
                     <a href="https://t.me/MarinaValuto" target="_blank" rel="noopener noreferrer" class="header__telegram">
-                      <!-- Вставим SVG иконку прямо в код -->
-                      <svg class="header__telegram-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240">
+                    <!-- Вставим SVG иконку прямо в код -->
+                    <svg class="header__telegram-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240">
                         <circle cx="120" cy="120" r="120" fill="#27A6E5"/>
                         <path fill="#fff" d="M178 62L52 108c-9 4-9 10-2 13l31 10 12 38c1 4 0 5 4 5s6-2 9-4l21-20 32 24c6 3 11 1 12-6l22-103c2-9-3-13-11-10z"/>
-                      </svg>
-                      <p class="header__nav-text-size">Напишите в Telegram</p>
+                    </svg>
+                    <p class="header__nav-text-size">Напишите в Telegram</p>
                     </a>
-                  
+                
                     <img class="header__nav-phone" src="./img/Phone.svg" alt="phone">
-                  </div>
-                  
-                  
+                </div>
             </nav>
             <div class="wrapper">
                 <h1 class="header__title">Банкротство физических лиц</h1>
@@ -98,7 +96,30 @@
             </div>
         </div>
     </header>
-
+    <nav class="main-menu">
+        <div class="container main-menu__container">
+          <a href="/" class="main-menu__logo">⚖️ Без долгов</a>
+      
+          <ul class="main-menu__list">
+            <li><a href="#about" class="main-menu__link">О нас</a></li>
+      
+            <li class="main-menu__dropdown">
+              <a href="#services" class="main-menu__link">Полезные советы ▾</a>
+              <ul class="dropdown__list">
+                <li><a href="/articles/mfc.html" class="dropdown__link">Как подать через МФЦ</a></li>
+                <li><a href="/articles/bankrotstvo.html" class="dropdown__link">Банкротство физлиц</a></li>
+              </ul>
+            </li>
+      
+            <li><a href="#adress" class="main-menu__link">Контакты</a></li>
+      
+            <li>
+              <a href="#contact" class="main-menu__link main-menu__btn"> Консультация</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      
     <main>
         <section class="about-us" id="tab-next">
             <div class="container">
@@ -109,7 +130,7 @@
                         <h3 class="about-us__subtitle">О нас</h3>
                         <div class="about-us__sign"></div>
                     </div>
-                    <p class="about-us__text"> - Опыт более 8 лет <br>
+                    <p class="about-us__text"> - Опыт более 10 лет <br>
                         - Бесплатная консультация  <br>
                         - Индивидуальный подход к каждому клиенту<br>
                         - Сбор документов для банкротства онлайн<br>
@@ -197,8 +218,8 @@
           </section>
           
           
-          
-        <div class="footer">
+         
+        <div class="footer" id="adress">
             <div class="footer__wrapper">
                 <div class="footer__image-block">
                     <img src="./img/photo_2025-04-06 17.45.13.jpeg" alt="Специалист" class="footer__image" />
@@ -228,7 +249,6 @@
                     </a>
                 </div>
             </div>
-        
             <!-- Карта -->
             <div class="footer__map-container">
                 <div class="footer__map">
