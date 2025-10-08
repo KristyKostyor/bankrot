@@ -82,7 +82,7 @@ a:hover .header__nav-text-size {
 }
 
 a:hover .header__nav-phone {
-    transform: rotate(15deg) scale(1.2); /* Лёгкий поворот и увеличение */
+    transform: rotate(15deg) scale(1); /* Лёгкий поворот и увеличение */
 }
 
 .header__nav-phone {
@@ -105,6 +105,27 @@ a:hover .header__nav-phone {
     height: 20px;
   }
   
+  .header__whatsapp {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    gap: 8px;
+    margin-top: 6px;
+  }
+  
+  .header__whatsapp-icon {
+    width: 22px;
+    height: 22px;
+  }
+  
+  .header__nav-text-size {
+    font-size: 16px;
+    color: #f3f0f0;
+  }
+  
+  .header__whatsapp:hover .header__nav-text-size {
+    color: #25D366;
+  }
   
 @media all and (max-width:1024px) {
 
