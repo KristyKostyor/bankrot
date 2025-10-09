@@ -101,6 +101,11 @@ span {
 .contact__telegram-btn:hover {
     background-color: #1b4270;
 }
+input[name="_gotcha"] {
+    position: absolute;
+    left: -9999px;
+    visibility: hidden;
+}
 
 /* --- Responsive tweaks --- */
 @media (max-width: 1024px) {
