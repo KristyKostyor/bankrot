@@ -81,3 +81,27 @@ iframe {
     margin: 0 auto;
     max-width: 1200px;
 }
+.contact__error {
+    color: #ff3b30;
+    font-size: 14px;
+    margin-top: 6px;
+    opacity: 0;
+    transform: translateY(-4px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+  }
+  
+  .contact__error.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .contact__btn[disabled] {
+    opacity: 0.6;
+    cursor: not-allowed;
+    transition: all 0.3s ease;
+  }
+  
+  .contact__btn {
+    transition: all 0.3s ease;
+  }
+  
