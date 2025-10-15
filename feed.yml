@@ -17,15 +17,14 @@
 
       <!-- Основное предложение -->
       <offer id="1" available="true">
+        <set-ids>1</set-ids>
         <url>https://bezdolgov.netlify.app/</url>
         <price>0</price>
         <currencyId>RUR</currencyId>
         <categoryId>1</categoryId>
 
-        <!-- Исполнитель -->
-        <name>ООО "Без долгов"</name>
+        <name>Банкротство физических лиц онлайн</name>
 
-        <!-- Название услуги -->
         <description>
           Банкротство физических лиц онлайн. Полное сопровождение процедуры.
           Работаем по всей России, приезжать в офис не нужно.
@@ -35,16 +34,19 @@
         <param name="Годы опыта">8</param>
         <param name="Регион">Россия</param>
         <param name="Конверсия">0.12</param>
+        <param name="Рейтинг">4.9</param>
+        <param name="Число отзывов">152</param>
       </offer>
 
       <!-- Бесплатная консультация -->
       <offer id="2" available="true">
+        <set-ids>2</set-ids>
         <url>https://bezdolgov.netlify.app/#contact</url>
         <price>0</price>
         <currencyId>RUR</currencyId>
         <categoryId>1</categoryId>
 
-        <name>ООО "Без долгов"</name>
+        <name>Бесплатная консультация юриста</name>
 
         <description>
           Бесплатная консультация юриста по банкротству физических лиц.
@@ -55,6 +57,8 @@
         <param name="Годы опыта">8</param>
         <param name="Регион">Россия</param>
         <param name="Конверсия">0.15</param>
+        <param name="Рейтинг">5.0</param>
+        <param name="Число отзывов">210</param>
       </offer>
 
     </offers>
