@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<yml_catalog date="2025-10-08 12:00">
+<yml_catalog date="2025-10-15 12:00">
   <shop>
-    <name>ООО "Без долгов"</name>
-    <company>Юридическая компания "Без долгов"</company>
+    <name>Юридическая компания "Без долгов"</name>
+    <company>ИП Валуто Марина Сергеевна</company>
     <url>https://bezdolgov.netlify.app/</url>
 
     <currencies>
@@ -14,57 +14,18 @@
     </categories>
 
     <offers>
-
-      <!-- Основное предложение -->
       <offer id="1" available="true">
-        <set-ids>1</set-ids>
         <url>https://bezdolgov.netlify.app/</url>
         <price>0</price>
         <currencyId>RUR</currencyId>
         <categoryId>1</categoryId>
-
-        <name>Банкротство физических лиц онлайн</name>
-
+        <name>Марина Валуто — руководитель юридической практики "Без долгов"</name>
         <vendor>Юридическая компания "Без долгов"</vendor>
-
-        <description>
-          Банкротство физических лиц онлайн. Полное сопровождение процедуры.
-          Работаем по всей России, приезжать в офис не нужно.
-          Бесплатная консультация и юридическая поддержка на всех этапах.
-        </description>
-
-        <param name="Годы опыта">8</param>
-        <param name="Регион">Россия</param>
-        <param name="Конверсия">0.12</param>
+        <description>Банкротство физических лиц онлайн — списание долгов по закону 127-ФЗ. Бесплатная консультация, защита от коллекторов, сопровождение процедуры.</description>
+        <picture>https://bezdolgov.netlify.app/img/photo_2025-04-06%2017.45.13.jpeg</picture>
         <param name="Рейтинг">4.9</param>
-        <param name="Число отзывов">152</param>
+        <param name="Число отзывов">37</param>
       </offer>
-
-      <!-- Бесплатная консультация -->
-      <offer id="2" available="true">
-        <set-ids>2</set-ids>
-        <url>https://bezdolgov.netlify.app/#contact</url>
-        <price>0</price>
-        <currencyId>RUR</currencyId>
-        <categoryId>1</categoryId>
-
-        <name>Бесплатная консультация юриста</name>
-
-        <vendor>Юридическая компания "Без долгов"</vendor>
-
-        <description>
-          Бесплатная консультация юриста по банкротству физических лиц.
-          Разберём вашу ситуацию и подскажем, подходит ли вам процедура.
-          Консультация проводится онлайн, без выезда в офис. Работаем по всей России.
-        </description>
-
-        <param name="Годы опыта">8</param>
-        <param name="Регион">Россия</param>
-        <param name="Конверсия">0.15</param>
-        <param name="Рейтинг">5.0</param>
-        <param name="Число отзывов">210</param>
-      </offer>
-
     </offers>
   </shop>
 </yml_catalog>
