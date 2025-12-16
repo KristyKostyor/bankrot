@@ -1,0 +1,190 @@
+/* ===== ТАРИФЫ ===== */
+.packages {
+    padding: 80px 0;
+    background: #f6f8fb;
+}
+
+.packages__title {
+    text-align: center;
+    font-size: 34px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.packages__subtitle {
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto 50px;
+    color: #6b7280;
+    font-size: 16px;
+}
+
+/* Сетка карточек */
+.packages__list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 28px;
+    align-items: stretch;
+}
+
+/* Карточка */
+.packages__item {
+    position: relative;
+    background: #ffffff;
+    border-radius: 20px;
+    padding: 32px 28px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.06);
+    display: flex;
+    flex-direction: column;
+    transition: transform .3s ease, box-shadow .3s ease;
+}
+.packages__note {
+    font-size: 14px;
+    color: #065f46;
+    background: #ecfdf5;
+    border-radius: 12px;
+    padding: 12px 14px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.packages__item:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 30px 60px rgba(0, 0, 0, 0.12);
+}
+
+/* Название тарифа */
+.packages__name {
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 16px;
+}
+
+/* Бейдж */
+.packages__badge {
+    position: absolute;
+    top: -14px;
+    right: 22px;
+    background: linear-gradient(135deg, #23C7EC, #1aa3c4);
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 700;
+    padding: 6px 14px;
+    border-radius: 999px;
+}
+
+/* Инфо-чипы */
+.packages__info {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 18px;
+}
+
+.packages__chip {
+    background: #eef4f8;
+    color: #1f2937;
+    font-size: 13px;
+    padding: 6px 12px;
+    border-radius: 999px;
+    font-weight: 600;
+}
+
+/* Описание */
+.packages__desc {
+    font-size: 15px;
+    color: #4b5563;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Карточки услуг */
+.packages__cards {
+    display: grid;
+    gap: 12px;
+    margin-bottom: 24px;
+}
+
+.packages__card {
+    background: #f8fafc;
+    border-radius: 14px;
+    padding: 14px 16px;
+    font-size: 15px;
+    color: #1f2937;
+    box-shadow: inset 0 0 0 1px #e5e7eb;
+    transition: background .2s ease, transform .2s ease;
+}
+
+.packages__card:hover {
+    background: #eef6fb;
+    transform: translateX(4px);
+}
+
+/* Цена */
+.packages__price {
+    margin-top: auto;
+    margin-bottom: 20px;
+}
+
+.packages__price-value {
+    font-size: 26px;
+    font-weight: 900;
+    color: #111827;
+}
+
+/* Кнопки */
+.packages__btn {
+    display: block;
+    text-align: center;
+    padding: 14px;
+    border-radius: 14px;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    background: #e5e7eb;
+    color: #111827;
+    transition: background .2s ease, transform .2s ease;
+}
+
+.packages__btn:hover {
+    background: #d1d5db;
+    transform: translateY(-2px);
+}
+
+.packages__btn--primary {
+    background: linear-gradient(135deg, #23C7EC, #1aa3c4);
+    color: #ffffff;
+}
+
+.packages__btn--primary:hover {
+    background: linear-gradient(135deg, #1aa3c4, #1590b0);
+}
+
+.packages__btn--accent {
+    background: #111827;
+    color: #ffffff;
+}
+
+.packages__btn--accent:hover {
+    background: #000000;
+}
+
+/* Акцент на базовом тарифе */
+.packages__item--base {
+    border: 2px solid #23C7EC;
+}
+
+/* Адаптив */
+@media (max-width: 768px) {
+    .packages {
+        padding: 60px 0;
+    }
+
+    .packages__title {
+        font-size: 28px;
+    }
+
+    .packages__item {
+        padding: 28px 22px;
+    }
+}

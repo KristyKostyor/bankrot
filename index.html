@@ -77,51 +77,47 @@
 <script src="https://www.google.com/recaptcha/api.js?render=6LdvbeQrAAAAAIPL3Fh7-GwonJTuruR67gGqHbPo"></script>
 
 <body>
-    <header class="header">
-        <div class="container">
-            <nav class="header__navigator">
-                <div class="header__nav-logo">
+<header class="header">
+  <div class="container">
+    <nav class="header__navigator">
+      <div class="header__nav-logo">
+        <!-- Логотип здесь -->
+      </div>
 
-                </div>
-                <div class="header__nav-info">
-                    <p class="header__nav-text">+7(499)-492-50-88</p>
+      <div class="header__nav-info">
+        <p class="header__nav-text">+7 (499) 492-50-88</p>
 
-                    <a href="https://t.me/MarinaValuto" target="_blank" rel="noopener noreferrer" class="header__telegram" onclick="ym(99960670,'reachGoal','telegram_click'); return true;">
+        <a href="https://t.me/MarinaValuto" target="_blank" rel="noopener noreferrer" class="header__telegram">
+          <svg class="header__telegram-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240">
+            <circle cx="120" cy="120" r="120" fill="#27A6E5"/>
+            <path fill="#fff" d="M178 62L52 108c-9 4-9 10-2 13l31 10 12 38c1 4 0 5 4 5s6-2 9-4l21-20 32 24c6 3 11 1 12-6l22-103c2-9-3-13-11-10z"/>
+          </svg>
+          <span class="header__nav-text-size">Telegram</span>
+        </a>
 
-                        <svg class="header__telegram-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240">
-                            <circle cx="120" cy="120" r="120" fill="#27A6E5" />
-                            <path fill="#fff" d="M178 62L52 108c-9 4-9 10-2 13l31 10 12 38c1 4 0 5 4 5s6-2 9-4l21-20 32 24c6 3 11 1 12-6l22-103c2-9-3-13-11-10z" />
-                        </svg>
-                        <p class="header__nav-text-size">Напишите в Telegram</p>
-                    </a>
-                    <a href="https://wa.me/79261593439" target="_blank" rel="noopener noreferrer" class="header__whatsapp" onclick="ym(99960670,'reachGoal','whatsapp_click'); return true;">
+    
+      </div>
+    </nav>
 
-                        <svg class="header__whatsapp-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240">
-                            <circle cx="120" cy="120" r="120" fill="#25D366" />
-                            <path fill="#fff" d="M163.5 126.4c-2.7-1.3-15.8-7.8-18.3-8.7-2.4-0.9-4.1-1.3-5.9 1.3s-6.8 8.7-8.4 10.5c-1.5 1.8-3.1 2-5.8 0.7-15.8-7.9-26.1-14.1-36.4-32-2.7-4.7 2.7-4.4 7.9-14.7 0.9-1.8 0.5-3.3-0.3-4.7-0.7-1.3-5.9-14.3-8.1-19.6-2.1-5.2-4.3-4.5-5.9-4.6-1.5-0.1-3.3-0.1-5-0.1s-4.6 0.7-7 3.3c-2.4 2.6-9.2 9-9.2 21.9 0 12.9 9.4 25.4 10.7 27.2 1.3 1.8 18.4 28.2 44.7 39.5 26.3 11.3 26.3 7.6 31 7.2 4.7-0.4 15.8-6.4 18.1-12.6 2.2-6.2 2.2-11.4 1.5-12.6-0.7-1.1-2.5-1.8-5.2-3.1z" />
-                        </svg>
-                        <p class="header__nav-text-size">Напишите в WhatsApp</p>
-                    </a>
-                    <img class="header__nav-phone" src="./img/Phone.svg" alt="phone"  loading="lazy">
-                </div>
-            </nav>
-            <div class="wrapper">
-                <h1 class="header__title">Банкротство физических лиц</h1>
+    <div class="header__content">
+      <h1 class="header__title">Банкротство физических лиц</h1>
+      <p class="header__text">
+        Банкротство граждан – законное решение долговых проблем.<br>
+        У Вас проблемы с долгами? Не знаете, как избавиться от кредитного бремени?
+      </p>
+      <div class="header__btn-wrapper">
+        <a href="#contact">
+          <button class="cta-btn">Получить бесплатную консультацию</button>
+        </a>
+      </div>
+    </div>
+  </div>
+</header>
 
-                <p class="header__text">Банкротство граждан – законное решение долговых проблем.
-                    <br>У Вас проблемы с долгами? Не знаете, как избавиться от кредитного бремени? </p>
-                <div class="header__btn-wrapper">
-                    <a href="#contact">
-                        <button class="cta-btn">Получить бесплатную консультацию</button>
-                    </a>
-                  <!--  <a href="#tab-next">
-                        <button class="header__btn">Подробнее</button>
-                    </a>-->
-                </div>
 
-            </div>
-        </div>
-    </header>
+
+
+
     <nav class="main-menu">
         <div class="container main-menu__container">
             <a href="/" class="main-menu__logo">⚖️ Без долгов</a>
@@ -147,66 +143,84 @@
     </nav>
 
     <main>
-        <section class="about-us" id="tab-next">
-            <div class="container">
-                <div class="wrapper">
-                    <h2 class="about-us__title">Мы помогаем гражданам официально списать долги через процедуру банкротства! Работаем в рамках закона №127-ФЗ.</h2>
-                    <div class="about-us__text-block">
-                        <div class="about-us__sign"></div>
-                        <h3 class="about-us__subtitle">О нас</h3>
-                        <div class="about-us__sign"></div>
-                    </div>
-                    <p class="about-us__text"> - Опыт более 10 лет <br>
-                        - Бесплатная консультация <br>
-                        - Индивидуальный подход к каждому клиенту<br>
-                        - Сбор документов для банкротства онлайн<br>
-                        - Работаем по всей России.<br></p>
+ <!-- ===== ABOUT US ===== -->
+<section class="about-us" id="tab-next">
+  <div class="container">
+    <div class="about-us__wrapper">
 
-                    <div class="about-us__circle-block">
-                        <div class="about-us__cicrle-content">
-                            <div class="about-us__circle-wrap">
-                                <svg width="123" height="122" viewBox="0 0 123 122" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <circle cx="61.8184" cy="61" r="61" fill="#23C7EC" />
-                                    <path d="M66.6489 85H59.9136V52.4644L49.9775 55.8599V50.1543L65.7861 44.3374H66.6489V85Z" fill="white" />
-                                </svg>
+      <h2 class="about-us__title">
+        Мы помогаем гражданам официально списать долги через процедуру банкротства!  
+        Работаем в рамках закона №127-ФЗ.
+      </h2>
 
-                            </div>
-                            <p class="about-us__text-circle">Полное списание долгов: кредиты, микрозаймы, ЖКХ. </p>
-                        </div>
-                        <div class="about-us__cicrle-content">
-                            <div class="about-us__circle-wrap">
-                                <svg width="123" height="122" viewBox="0 0 123 122" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <circle cx="61.8184" cy="61" r="61" fill="#23C7EC" />
-                                    <path d="M75.583 85H48.3354V80.3521L61.834 65.6289C63.7822 63.458 65.1646 61.6489 65.981 60.2017C66.8159 58.7358 67.2334 57.27 67.2334 55.8042C67.2334 53.8745 66.686 52.3159 65.5913 51.1284C64.5151 49.9409 63.0586 49.3472 61.2217 49.3472C59.0322 49.3472 57.3345 50.0151 56.1284 51.3511C54.9224 52.687 54.3193 54.5146 54.3193 56.834H47.5562C47.5562 54.3662 48.1128 52.1489 49.2261 50.1821C50.3579 48.1968 51.9629 46.6567 54.041 45.562C56.1377 44.4673 58.5498 43.9199 61.2773 43.9199C65.2109 43.9199 68.3096 44.9126 70.5732 46.8979C72.8555 48.8647 73.9966 51.5923 73.9966 55.0806C73.9966 57.103 73.4214 59.2275 72.271 61.4541C71.1392 63.6621 69.2744 66.1763 66.6768 68.9966L56.7686 79.6006H75.583V85Z" fill="white" />
-                                </svg>
+      <div class="about-us__text-block">
+        <span class="about-us__sign"></span>
+        <h3 class="about-us__subtitle">О нас</h3>
+        <span class="about-us__sign"></span>
+      </div>
 
+      <p class="about-us__text">
+        • Опыт более 10 лет <br>
+        • Бесплатная консультация <br>
+        • Индивидуальный подход к каждому клиенту <br>
+        • Сбор документов онлайн <br>
+        • Работаем по всей России
+      </p>
 
-                            </div>
-                            <p class="about-us__text-circle">Защита от коллекторов и судов. </p>
-                        </div>
-                        <div class="about-us__cicrle-content">
-                            <div class="about-us__circle-wrap">
-                                <svg width="123" height="122" viewBox="0 0 123 122" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <circle cx="61.8184" cy="61" r="61" fill="#23C7EC" />
-                                    <path d="M56.1562 61.6489H60.2754C62.3535 61.6304 63.9956 61.0923 65.2017 60.0347C66.4263 58.9771 67.0386 57.4463 67.0386 55.4424C67.0386 53.5127 66.5283 52.019 65.5078 50.9614C64.5059 49.8853 62.9658 49.3472 60.8877 49.3472C59.0693 49.3472 57.5757 49.876 56.4067 50.9336C55.2378 51.9727 54.6533 53.3364 54.6533 55.0249H47.8901C47.8901 52.9468 48.4375 51.0542 49.5322 49.3472C50.6455 47.6401 52.1855 46.3135 54.1523 45.3672C56.1377 44.4023 58.355 43.9199 60.8042 43.9199C64.8491 43.9199 68.022 44.9404 70.3228 46.9814C72.6421 49.0039 73.8018 51.8242 73.8018 55.4424C73.8018 57.2607 73.2173 58.9771 72.0483 60.5913C70.8979 62.187 69.4043 63.3931 67.5674 64.2095C69.7939 64.9702 71.4824 66.167 72.6328 67.7998C73.8018 69.4326 74.3862 71.3809 74.3862 73.6445C74.3862 77.2812 73.1338 80.1758 70.6289 82.3281C68.1426 84.4805 64.8677 85.5566 60.8042 85.5566C56.9077 85.5566 53.7163 84.5176 51.23 82.4395C48.7437 80.3613 47.5005 77.5967 47.5005 74.1455H54.2637C54.2637 75.9268 54.8574 77.374 56.0449 78.4873C57.251 79.6006 58.8652 80.1572 60.8877 80.1572C62.9844 80.1572 64.6357 79.6006 65.8418 78.4873C67.0479 77.374 67.6509 75.7598 67.6509 73.6445C67.6509 71.5107 67.02 69.8687 65.7583 68.7183C64.4966 67.5679 62.6226 66.9927 60.1362 66.9927H56.1562V61.6489Z" fill="white" />
-                                </svg>
-                            </div>
-                            <p class="about-us__text-circle">Помощь в сборе всех необходимых документов, в том числе для подачи через МФЦ.</p>
-                        </div>
-                        <div class="about-us__cicrle-content">
-                            <div class="about-us__circle-wrap">
-                                <svg width="123" height="122" viewBox="0 0 123 122" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <circle cx="61.8184" cy="61" r="61" fill="#23C7EC" />
-                                    <path d="M71.2134 70.5552H76.251V75.9824H71.2134V85H64.4502V75.9824H46.9438L46.749 71.8633L64.2275 44.4766H71.2134V70.5552ZM53.8462 70.5552H64.4502V53.6333L63.9492 54.5239L53.8462 70.5552Z" fill="white" />
-                                </svg>
-                            </div>
-                            <p class="about-us__text-circle">Сопровождение до полного завершения процедуры. </p>
-                        </div>
+    </div>
+  </div>
+</section>
 
-                    </div>
-                </div>
-            </div>
-        </section>
+<!-- ===== SERVICES ===== -->
+<section class="services-cards">
+  <div class="container">
+
+    <h2 class="services-cards__title">Наши услуги</h2>
+
+    <div class="services-cards__grid">
+
+      <article class="services-card">
+        <div class="services-card__image">
+          <img src="./img/help.jpg" alt="Полное списание долгов" loading="lazy">
+        </div>
+        <h3 class="services-card__card-title">Полное списание долгов</h3>
+        <p class="services-card__text">Кредиты, микрозаймы, ЖКХ.</p>
+      </article>
+
+      <article class="services-card">
+        <div class="services-card__image">
+          <img src="./img/collector.jpg" alt="Защита от коллекторов" loading="lazy">
+        </div>
+        <h3 class="services-card__card-title">Защита от коллекторов</h3>
+        <p class="services-card__text">
+          Защищаем от давления коллекторов и судебных разбирательств.
+        </p>
+      </article>
+
+      <article class="services-card">
+        <div class="services-card__image">
+          <img src="./img/documet.jpg" alt="Сбор документов" loading="lazy">
+        </div>
+        <h3 class="services-card__card-title">Помощь с документами</h3>
+        <p class="services-card__text">
+          Сбор и подготовка документов, включая подачу через МФЦ.
+        </p>
+      </article>
+
+      <article class="services-card">
+        <div class="services-card__image">
+          <img src="./img/helpend.jpg" alt="Сопровождение процедуры" loading="lazy">
+        </div>
+        <h3 class="services-card__card-title">Сопровождение процедуры</h3>
+        <p class="services-card__text">
+          Полное сопровождение до завершения процедуры банкротства.
+        </p>
+      </article>
+
+    </div>
+  </div>
+</section>
+
         <section class="contact" id="contact">
             <form class="contact__content" action="https://formspree.io/f/mqknqqgp" method="POST">
                 <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off">
@@ -223,6 +237,140 @@
                 </div>
             </form>
         </section>
+
+
+
+    <section class="packages" id="services">
+    <div class="container">
+        <h2 class="packages__title">Тарифы на банкротство физических лиц</h2>
+        <p class="packages__subtitle">
+            Прозрачные условия и сопровождение в рамках закона №127-ФЗ
+        </p>
+
+        <div class="packages__list">
+
+            <!-- Социальный -->
+           <div class="packages__item packages__item--social">
+
+    <h3 class="packages__name">Социальный</h3>
+
+    <div class="packages__info">
+        <div class="packages__chip">Долг до 1 млн ₽</div>
+        <div class="packages__chip">До 3 кредиторов</div>
+        <div class="packages__chip">Для пенсионеров</div>
+    </div>
+
+    <p class="packages__desc">
+        Тариф для пенсионеров и нетрудоспособных граждан.
+        Клиент участвует в процедуре, основную юридическую работу выполняем мы.
+    </p>
+
+    <div class="packages__cards">
+        <div class="packages__card">Подготовим и подадим заявление по вашим документам</div>
+        <div class="packages__card">Сопровождение процедуры банкротства</div>
+        <div class="packages__card">Защита от коллекторов и взысканий</div>
+        <div class="packages__card">Консультации на всех этапах</div>
+    </div>
+
+    <div class="packages__price">
+        <span class="packages__price-value">от 60 000 ₽</span>
+    </div>
+
+    <div class="packages__note">
+        Для пенсионеров возможна <strong>рассрочка</strong> и
+        <strong>льготные условия оплаты</strong>.
+    </div>
+
+    <a href="#contact" class="packages__btn packages__btn--primary">
+        Получить консультацию
+    </a>
+
+</div>
+
+            <!-- Базовый -->
+         <div class="packages__item packages__item--base">
+
+    <div class="packages__badge">Популярный</div>
+
+    <h3 class="packages__name">Базовый</h3>
+
+    <div class="packages__info">
+        <div class="packages__chip">Долг до 5 млн ₽</div>
+        <div class="packages__chip">До 10 кредиторов</div>
+        <div class="packages__chip">Судебная процедура</div>
+    </div>
+
+    <p class="packages__desc">
+        Универсальный тариф для большинства клиентов.
+        Полное сопровождение процедуры банкротства с персональной командой.
+    </p>
+
+    <div class="packages__cards">
+        <div class="packages__card">Подготовка и подача всех документов</div>
+        <div class="packages__card">Работа «под ключ»</div>
+        <div class="packages__card">Персональный юрист и менеджер</div>
+        <div class="packages__card">Защита от коллекторов и взысканий</div>
+        <div class="packages__card">Представительство интересов в суде</div>
+        <div class="packages__card">Взаимодействие с финансовым управляющим</div>
+        <div class="packages__card">Контроль сроков и этапов процедуры</div>
+    </div>
+
+    <div class="packages__price">
+        <span class="packages__price-value">от 150 000 ₽</span>
+    </div>
+
+    <a href="#contact" class="packages__btn packages__btn--accent">
+        Оставить заявку
+    </a>
+
+</div>
+
+
+            <!-- Стандартный -->
+           <div class="packages__item packages__item--standard">
+
+    <div class="packages__badge">Расширенный</div>
+
+    <h3 class="packages__name">Стандартный</h3>
+
+    <div class="packages__info">
+        <div class="packages__chip">Долг до 15 млн ₽</div>
+        <div class="packages__chip">До 20 кредиторов</div>
+        <div class="packages__chip">Сложные случаи</div>
+    </div>
+
+    <p class="packages__desc">
+        Возьмём на себя все задачи и вопросы,
+        связанные с процедурой банкротства.
+        Максимальное сопровождение и защита интересов клиента.
+    </p>
+
+    <div class="packages__cards">
+        <div class="packages__card">Сбор документов и подача заявления</div>
+        <div class="packages__card">Выбор СРО финансового управляющего</div>
+        <div class="packages__card">Работа «под ключ»</div>
+        <div class="packages__card">Персональный юрист и менеджер</div>
+        <div class="packages__card">Представительство интересов в суде</div>
+        <div class="packages__card">Взаимодействие с финансовым управляющим</div>
+        <div class="packages__card">Сохранение имущества (при наличии законных оснований)</div>
+    </div>
+
+    <div class="packages__price">
+        <span class="packages__price-value">от 180 000 ₽</span>
+    </div>
+
+    <a href="#contact" class="packages__btn packages__btn--primary">
+        Получить консультацию
+    </a>
+
+</div>
+
+
+        </div>
+    </div>
+</section>
+
+
         <section class="promo-mfc">
             <div class="wrapper">
                 <h2 class="promo-mfc__title">Банкротство через МФЦ</h2>
